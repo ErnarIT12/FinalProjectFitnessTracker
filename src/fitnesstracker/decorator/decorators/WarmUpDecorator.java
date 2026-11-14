@@ -1,0 +1,4 @@
+package fitnesstracker.decorator.decorators;
+
+public class WarmUpDecorator {
+}

@@ -1,0 +1,13 @@
+*.class
+/out/
+/bin/
+/target/
+
+.idea/
+*.iml
+.vscode/
+
+/reports/
+
+.DS_Store
+Thumbs.db
