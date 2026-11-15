@@ -1,9 +1,6 @@
 package fitnesstracker.factory.product;
 
-/**
- * FACTORY METHOD: Concrete Product - concrete exercise.
- * Owner: Rahat
- */
+
 public class Squats extends Exercise {
 
     public Squats(int durationMinutes) {

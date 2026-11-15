@@ -1,13 +1,6 @@
 package fitnesstracker.factory.product;
 
-/**
- * FACTORY METHOD: Product - base class for every exercise.
- * Owner: Rahat
- *
- * Common data and describe() live here once (DRY).
- * Concrete exercises only pass their data and give their own tip.
- * MET (Metabolic Equivalent of Task) = how intense the exercise is.
- */
+
 public abstract class Exercise {
     private final String name;
     private final ExerciseType type;

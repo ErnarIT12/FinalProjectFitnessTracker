@@ -1,9 +1,6 @@
 package fitnesstracker.abstractfactory.product;
 
-/**
- * ABSTRACT FACTORY: Concrete Product.
- * Owner: Rahat
- */
+
 public class MuscleGainNutritionPlan implements NutritionPlan {
 
     @Override

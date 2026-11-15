@@ -12,10 +12,7 @@ import fitnesstracker.factory.product.Exercise;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * ABSTRACT FACTORY: Concrete Factory for muscle gain.
- * Owner: Rahat
- */
+
 public class MuscleGainFactory implements ProgramFactory {
     private final ExerciseFactory strength = new StrengthExerciseFactory();
     private final ExerciseFactory flexibility = new FlexibilityExerciseFactory();

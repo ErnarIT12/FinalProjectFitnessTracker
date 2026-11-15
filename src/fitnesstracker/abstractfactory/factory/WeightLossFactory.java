@@ -12,12 +12,7 @@ import fitnesstracker.factory.product.Exercise;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * ABSTRACT FACTORY: Concrete Factory for weight loss.
- * Owner: Rahat
- *
- * Uses Factory Method factories to create the exercises (patterns work together).
- */
+
 public class WeightLossFactory implements ProgramFactory {
     private final ExerciseFactory cardio = new CardioExerciseFactory();
     private final ExerciseFactory strength = new StrengthExerciseFactory();

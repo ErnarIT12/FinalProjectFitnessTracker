@@ -4,10 +4,7 @@ import fitnesstracker.factory.product.Exercise;
 import fitnesstracker.factory.product.PushUps;
 import fitnesstracker.factory.product.Squats;
 
-/**
- * FACTORY METHOD: Concrete Creator for strength exercises.
- * Owner: Rahat
- */
+
 public class StrengthExerciseFactory extends ExerciseFactory {
 
     @Override

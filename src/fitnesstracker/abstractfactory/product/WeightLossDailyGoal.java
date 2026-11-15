@@ -1,9 +1,6 @@
 package fitnesstracker.abstractfactory.product;
 
-/**
- * ABSTRACT FACTORY: Concrete Product.
- * Owner: Rahat
- */
+
 public class WeightLossDailyGoal implements DailyGoal {
 
     @Override

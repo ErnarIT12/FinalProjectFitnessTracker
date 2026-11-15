@@ -4,10 +4,7 @@ import fitnesstracker.factory.product.Cycling;
 import fitnesstracker.factory.product.Exercise;
 import fitnesstracker.factory.product.Running;
 
-/**
- * FACTORY METHOD: Concrete Creator for cardio exercises.
- * Owner: Rahat
- */
+
 public class CardioExerciseFactory extends ExerciseFactory {
 
     @Override

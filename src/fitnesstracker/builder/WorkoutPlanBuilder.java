@@ -6,14 +6,7 @@ import fitnesstracker.factory.product.Exercise;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * BUILDER: step-by-step construction of WorkoutPlan.
- * Owner: Rahat
- *
- * Every setter returns "this", so calls can be chained:
- * new WorkoutPlanBuilder().setName("My plan").addExercise(...).build();
- * Optional fields have default values, build() checks the required ones.
- */
+
 public class WorkoutPlanBuilder {
     private String name;
     private String goal = "General fitness";

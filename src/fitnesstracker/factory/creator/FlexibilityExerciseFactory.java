@@ -3,10 +3,6 @@ package fitnesstracker.factory.creator;
 import fitnesstracker.factory.product.Exercise;
 import fitnesstracker.factory.product.Yoga;
 
-/**
- * FACTORY METHOD: Concrete Creator for flexibility exercises.
- * Owner: Rahat
- */
 public class FlexibilityExerciseFactory extends ExerciseFactory {
 
     @Override

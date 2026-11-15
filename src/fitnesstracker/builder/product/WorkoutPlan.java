@@ -5,12 +5,7 @@ import fitnesstracker.factory.product.Exercise;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * BUILDER: Product - weekly workout plan.
- * Owner: Rahat
- *
- * Immutable: all fields are final, created through WorkoutPlanBuilder.
- */
+
 public class WorkoutPlan {
     private final String name;
     private final String goal;
